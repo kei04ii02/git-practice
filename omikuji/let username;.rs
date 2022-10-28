@@ -3,6 +3,9 @@ let userresult;
 
 username = prompt("お名前を教えて下さい。");
 document.getElementById("name").innerHTML = username;
+if(userame ==""){
+  username=名無し;
+}
 
 let rand = Math.floor( Math.random() * 5) ;
 if (rand == 0) {
